@@ -7,21 +7,21 @@ open Random;
 val personer =
     ["en nørd", "en sekretær", "rektor", "lektor",
      "Jyrki", "Pawel", "Hitler", "nogle fysikere", "en rus", "en gammel bitter datalog",
-     "Stroustrup", "Peter Naur", "en KUAine"];
+     "Stroustrup", "Peter Naur", "en KUAine", "en pige", "WATSON"];
 
 val steder =
     ["i studieadministrationen", "på rektors kontor", "i kantinen",
      "på KUA", "på HCØv", "på Caféen?", "i parken", "på Duniyas",
-     "på Dilans", "på Oasen?", "hos Leifs", "på pigetoilettet"];
+     "på Dilans", "på Oasen?", "hos Leifs", "på pigetoilettet", "til Jeopardy!"];
 
 val emner =
     ["SML", "SU", "fysik", "patter", "udflytningen", "C", "dårlig kode",
-     "\"kvinder\"", "humor"];
+     "\"kvinder\"", "humor", "nazister", "Hjemovn"];
 
 val pointer =
     ["ordspil", "politik", "ordspil", "bitterhed", "ordspil", "kjolemænd",
      "ordspil", "social akavethed", "ordspil", "urimelighed", "ordspil", "fagfascisme",
-     "ordspil", "Windowshad"];
+     "ordspil", "Windowshad", "ordspil", "drukspil"];
 
 fun vaelgEn l r = nth(l, range (0, length l) r);
 fun vaelg l 0 r = ([], l)
